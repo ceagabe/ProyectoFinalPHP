@@ -56,7 +56,9 @@ body {
 
 /*ESTILOS HEADER PARA ESCRITORIO*/
 .header {
-    background-color: #9f3647;
+    /* background-color: #9f3647;  */
+     background-color: rosybrown;
+    
     color: #ffffff;
     height: 10vh;
     position: sticky;
