@@ -57,7 +57,7 @@ body {
 /*ESTILOS HEADER PARA ESCRITORIO*/
 .header {
      background-color: #9f3647 ;
-     /* background-color: rosybrown; */
+     background-color: rosybrown; 
     color: #ffffff;
     height: 10vh;
     position: sticky;
@@ -960,4 +960,24 @@ hr {
 .seccionIniciar {
     align-items: end;
     margin-left:80% ;
+}
+
+.redes {
+    margin-bottom: 20px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        column-gap: 20px;
+
+        li {
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 2.5rem;
+                margin-right: 50px;
+            }
+        }
+
+    }
 }
