@@ -664,7 +664,7 @@ background-color:rosybrown;
                 input:not(.check, .boton),
                 select {
                     width: 100%;
-                    margin-bottom: 10px;
+                    margin-bottom: 0px; 
                     height: 40px;
                     padding: 0px 20px;
                     font-size: 1.2rem;

@@ -31,25 +31,32 @@
     <main id="main" class="main">
         <section data-aos="zoom-in" data-aos-duration="1000" class="seccionRegistrarse aos-init aos-animate">
 
-            <form action="" method="post">
+            <form action="" method="get">
 
-                <h2 class="tituloRegistrarse">Comentarios</h2>
+                <h3 class="tituloRegistrarse">Comentarios</h3>
 
                 <div class="box-info">
                     <div class="input-box">
-                        <input type="text" placeholder="Nombre y apellido" required="">
+                        <!-- <input type="text" name="nombre" placeholder="Nombre y apellido">
+                        <div class="error-text"></div> -->
+                        <input type="text" placeholder="Nombre y Apellido" name="nombre" id="nombre">
+                        <div class="error-text"></div>
                         <i class="fa fa-user-o" aria-hidden="true"></i>
                     </div>
                     <div class="input-box">
-                        <input type="email" required="" placeholder="Correo electrónico">
+                        <input type="email" placeholder="Email" id="email" name="email">
+                        <div class="error-text"></div>
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                     </div>
                     <div class="input-box">
-                        <input type="text" placeholder="Asunto">
+                        <input type="text" placeholder="Asunto" name="asunto" id="asunto">
+                        <div class="error-text"></div>
                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                       
                     </div>
                     <div class="input-box">
-                        <textarea placeholder="Escribe tu mensaje..." name="" id="" cols="25" rows="5"></textarea>
+                        <textarea placeholder="Escribe tu mensaje..." name="" id="textArea" cols="25" rows="5"></textarea>
+                        <div class="error-text"></div>
                     </div>
                     <button type="submit" class="btn btn-light "> Enviar mensaje </button>
                     <!-- <button type="submit">Enviar mensaje</button> -->
@@ -65,7 +72,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
+<script src="../js/valida_contactos.js"></script>
 </body>
 
 </html>
