@@ -28,19 +28,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     bookElement.innerHTML = `
                 
                         
-              <div class="peliculas">
+            
               <a href="${link}">
                     <div class="pelicula">
                     <img class="imgTendencia" src="${thumbnail}" alt="${title}"/img>
                     <div class="tituloPelicula">
-                    <h5>${title}</h5> 
-                            
+                    <h4>${title}</h4> 
                     </div>
                     </div>
                 </a>
-             </div>
-            
+                        
             `;
+            
                     document.getElementById('results').appendChild(bookElement);
                 });
             })
