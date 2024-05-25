@@ -482,6 +482,7 @@ body {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+               
 
                 a {
                     width: 100%;
@@ -489,9 +490,9 @@ body {
                     .pelicula {
                         width: 100%;
                         height: 500px;
-
+                       
                         .tituloPelicula {
-                            h4 {
+                            h5 {
                                 font-size: 1rem;
                             }
                         }
