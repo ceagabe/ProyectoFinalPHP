@@ -45,8 +45,6 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #9f3647;
-    background: rosybrown;
-    
 }
 
 body {
@@ -483,7 +481,7 @@ body {
         }
 
         .peliculasTendencia {
-            width: 60%;
+            width: 75%;
 
             .tituloSection {
                 font-size: 2rem;
