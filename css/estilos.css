@@ -139,13 +139,14 @@ body {
 @media (max-width: 768px) {
     .header {
         height: initial;
-        
+        padding-left: 1rem;
 
         .navegacion {
-            margin-left: 50px;
-            margin-right: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
             flex-direction: column;
             row-gap: 20px;
+           
 
             .anclaLogo {
                 font-size: 1.2rem;
