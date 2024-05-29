@@ -157,15 +157,13 @@ body {
             .listaNav {
 
                 padding: initial;
-                padding-left: 5rem;
-                padding-right: 5rem;
                 
                 .listaItem {
                     .linkNav {
                         font-weight: 400;
                         margin-right: initial;
                         font-size: 1rem;
-                        padding: 0.2rem;
+                        padding: 0.5rem;
 
                     }
 
