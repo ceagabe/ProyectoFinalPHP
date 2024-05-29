@@ -139,8 +139,7 @@ body {
 @media (max-width: 768px) {
     .header {
         height: initial;
-        padding-left: 5rem;
-        padding-right: 5rem;
+      
         
 
         .navegacion {
@@ -158,7 +157,9 @@ body {
             .listaNav {
 
                 padding: initial;
-
+                padding-left: 5rem;
+                padding-right: 5rem;
+                
                 .listaItem {
                     .linkNav {
                         font-weight: 400;
