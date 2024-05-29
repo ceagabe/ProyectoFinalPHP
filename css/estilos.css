@@ -92,7 +92,7 @@ body {
 
             .listaItem {
                 margin-right: 20px;
-                margin-left: 20px;
+                
                 
 
                 .linkNav {
@@ -100,7 +100,7 @@ body {
                     color: #ffffff;
                     font-weight: 700;
                     font-size: 1.1rem;
-                    padding: 0.5rem 1rem;
+                    padding: 1rem 1rem;
                     /* Agregar efecto de botón presionado */
                     transition: transform 0.3s, box-shadow 0.3s;
 
