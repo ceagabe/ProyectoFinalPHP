@@ -139,7 +139,9 @@ body {
 @media (max-width: 768px) {
     .header {
         height: initial;
-        padding-left: 1rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        
 
         .navegacion {
             margin-left: 10px;
